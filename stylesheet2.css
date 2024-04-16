@@ -4,12 +4,11 @@ header {
     }
 .teams {
     width: 33%;
-    display:inline-block;
+    display: inline-block;
       
     }
       
 img {
-    width: 228.57px;
-    height: 192.21px;
+    object-fit: cover; 
     }
       
