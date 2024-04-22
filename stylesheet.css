@@ -1,8 +1,8 @@
 body {
-	background-color:#ADD8E6;
+	background-color: white;
 	text-align: center;
 	margin-top: 100px;
-	font-family: arial;
+	font-family: "Titillium Web";
 	color: #123456
 }
 
@@ -12,8 +12,15 @@ a {
 	width: 200px;
     margin-left: auto;
     margin-right: auto;
+	margin-bottom: 50px;
     text-align: center;
 	background-color:#4B0082;
 	color: #FFFFFF;
-	text-decoration: none;
+	font-family: "Titillium Web";
+}
+
+img{
+	width : 150px; height : 150px;
+  border: none;
+  border-radius : 75px;
 }

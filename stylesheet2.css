@@ -1,13 +1,31 @@
-header {
-	display: block;
-    border: 1px solid #000000;
+body{
+    background-color: black;
+    color: white;
+    font-family: "Titillium Web";
     }
+header {
+    text-align: center;
+    color: red;
+	display: block;
+    border-bottom: 3px white solid; 
+    }
+nav {
+    color: red;
+    font-size: 15px;
+    }
+    
 .teams {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
     }
       
 img {
     max-width: 100%;
+    transition-property: transform;
+    transition-duration: 1s;
     }
-      
+
+img:hover {
+        transform: scale(1.2);
+    }
