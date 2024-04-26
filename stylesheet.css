@@ -6,21 +6,16 @@ body {
 	color: #123456
 }
 
-a {
-	display:block;
-	border:1px solid #0066ff;
-	width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-	margin-bottom: 50px;
-    text-align: center;
-	background-color:#4B0082;
-	color: #FFFFFF;
-	font-family: "Titillium Web";
-}
-
 img{
 	width : 150px; height : 150px;
   border: none;
   border-radius : 75px;
 }
+
+img:hover{
+	opacity: 0;
+	transition: 1.5s;
+}
+
+
+
