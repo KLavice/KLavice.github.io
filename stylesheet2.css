@@ -9,6 +9,30 @@ header {
 	display: block;
     border-bottom: 3px white solid; 
     }
+
+ul {
+    display: flex;
+    }
+    
+    li {
+         margin-inline: 40px;
+         margin-inline-start: initial;
+        transition-property: transform;
+        transition-duration: 1s;
+        
+    }
+li:hover{
+      transform: scale(1.2);  
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
 nav {
     color: red;
     font-size: 15px;

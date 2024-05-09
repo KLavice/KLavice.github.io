@@ -38,7 +38,7 @@ else
 		{document.write("perdu")}
 		break;
 	case "feuille" :
-        if (player == "pierre")  
+        if (player == "ciseaux")  
 		{document.write("gagné")}
 		else
 		{document.write("perdu")}
