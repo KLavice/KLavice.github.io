@@ -2,7 +2,7 @@ var player;
 var random;
 var computer;
 
-player = window.prompt('Choisissez pierre feuille ou ciseaux');
+player = window.prompt('Choisissez pierre, feuille ou ciseaux');
 player = player.toLowerCase();
 random = Math.random();
 
